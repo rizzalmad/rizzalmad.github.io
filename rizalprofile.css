@@ -1,0 +1,294 @@
+#myHeader {
+    background-color: lightgreen;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: serif;
+    font-size: 750%;
+    font-weight: bold;
+    border-style: groove;
+    margin: 20px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 5px;
+    box-shadow: 5px 10px black;
+
+
+  } 
+
+#myIntro{
+      background-color:white;
+      margin: 10px;
+      border: 5px;;
+      padding-top: ;
+      padding-bottom: ;
+      padding-left: 100px;
+      padding-right: 100px;
+      text-indent: 25px;
+      color: black;
+      font-size: 300%;
+      text-align: justify;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-indent: 5-em;
+      
+  }
+
+
+  p  {
+    background-color: white;
+    margin: ;
+    border: ;
+    padding-top: ;
+    padding-bottom: ;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-indent: 25px;
+    color: black; 
+    font-size: 250%;
+    text-align: justify;
+    font-family: Garamond;
+    
+  }
+
+
+  h2{
+    background-color: yellow;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    text-align: left;
+    font-family: Bookman;
+    font-size: 500%;
+    font-weight: bold;
+    border-style: groove;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    margin-top:20px;
+    border: 5px;
+    border-radius: 0;
+    border-style:solid;
+    border-top: black;
+    border-width:medium;
+
+  }
+
+  #firstquestion{
+    text-align:center;
+    margin:auto;
+    font-family:fantasy ;
+    font-size: 40px;
+    color: red;
+  }
+
+  #firstbutton{
+    text-align:center;
+    margin: 5%;
+    font-family:veranda ;
+    font-size: 50px;
+    color: black;
+    border-color:black;
+    border-width: 5px;
+    background: rgb(216, 92, 92);
+    border-radius: 50%;
+  }
+
+  #w3-containertutoriallinks{
+    font-display: center;
+    font-family: bookman;
+    font-size: 35px;
+    color: blue;
+    background-color: white;
+    border: 5px;
+    text-align: center;
+  }
+
+h3{
+  background-color: white;
+  color: blue;
+  font-size: 300%;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration-line: underline;
+  padding-top:25px;
+  padding-bottom:10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-top:100px;
+}
+
+#w3-barNavbar{
+  background: rgb(39, 17, 17);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 1px;
+  text-align: left;
+  text-decoration-line: underline;
+  font-family: Bookman;
+  font-size: 300%;
+  font-weight: bold;
+  color:white;
+  border-style: solid;
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  margin-top:10px;
+  border-width: 5px;
+  list-style-type: none;
+  float: left;
+  position: relative;
+  display: block;
+}
+
+#rizGames{
+  background-color: rgb(34, 255, 0);
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 300%;
+  font-weight: bold;
+  border-style: dotted solid;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  margin-top:20px;
+  border: 5px;
+ 
+}
+
+
+#w3-containertutoriallinks{
+  background: white;
+  color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-decoration-line: underline;
+  font-family: Bookman;
+  font-size: 300%;
+  font-weight: bold;
+  border-style: solid;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  margin-top:10px;
+  border: 5px;
+  list-style: none;
+
+}
+
+/*Tic-Tac-Toe*/
+
+#w-3-introTicTacTtoe{
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  margin-top:20px;
+  text-align: center;
+ 
+}
+
+  
+
+/*The game section*/
+
+#boxTicTacToe{
+	width: 100vh;
+	height: 100vh;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: burlywood;
+  height: 30%; 
+	width: 30%;
+  border: 10px solid black;
+  margin-block-end: 5px solid black;
+  border-collapse: separate;
+  border-radius: 10%;
+	font-size: 20vh;
+	text-align: center;
+}
+
+/*guessing tags*/
+
+/*for tags (pictures)*/
+.grid img{
+  height: 200px;
+  width: 200px;
+  padding:5px;
+  border-radius: 10px;
+  border: 2px solid;
+  margin: 10px;
+}
+
+#guesstagsinstruction{
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 250%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+#buttons{
+  height: 100px;
+  width: 90%;
+  
+}
+  
+  /*border-top-color: blue;
+  border-bottom-color: blue;
+  border-left-color: blue;
+  border-right-color: blue;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 150px;
+  margin-right: 150px;*/
+
+
+/*back to main*/
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  border-bottom-color: blue;
+  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  text-align: center;
+    }
+
+#lastLine{
+  text-align: center;
+  color: green;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+  
